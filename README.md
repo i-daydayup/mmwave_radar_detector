@@ -1,7 +1,7 @@
 # mmwave_radar_detector
 毫米波雷达检测，描述整个架构。
 
-方案结构为：
+# 方案结构
 ```
 [1] 射频前端（RF Front-End）  
      ↓（发射/接收电磁波）
@@ -11,3 +11,4 @@
      ↓（输出目标列表：距离、速度、角度、SNR等）
 [4] 应用层输出（Object List / Point Cloud / CAN消息等）
 ```
+# 激励源用python产生
